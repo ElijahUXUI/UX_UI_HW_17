@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  box-sizing: border-box;
+  background-color: #F4F0EB;
+  background-size: cover;
+}
+
+header {
+  width: 100%;
+  background-color: #F4F0EB;
+  display: flex;
+  justify-content: space-around;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  font-family: Montserrat;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+
+}
+
+header ul {
+  color: #373738;
+  font-family: montserrat;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  padding: 20px;
+  padding-right: 0px;
+  padding-left: 20px;
+}
+
+header li {
+  display: inline-block;
+  padding: 5px 28px;
+  font-size: 20px;
+}
+
+header p {
+  display: inline-block;
+
+}
+
+
+.content {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #F4F0EB;
+  text-align: center;
+  font-family: montserrant;
+  font-size: 20px;
+  block-size: 175px;
+
+}
+
+section {
+  padding: 150px;
+}
+
+section div {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+
+}
+
+button {
+  padding: 15px;
+  background-color: #fffefe00;
+  color: #FFA800;
+  font-size: 17px;
+  border-radius: 34px;
+  font-weight: 800;
+}
+
+footer {
+  background-color: #F4F0EB;
+  padding: 20px;
+  width: 100%;
+  
+}
+
+.aboutfooter {
+  display: flex;
+    padding-top: 100px;
+    padding-right: 250px;
+    padding-left: 250px;
+    align-items: center;
+    flex-direction: row;
+    background-color: #F4F0EB;
+
+}
+
+.aboutfooter div {
+  padding-right: 30px;
+  background-color:#F4F0EB;
+  
+}
+
+.bottomfooter {
+  background-color: #F4F0EB;
+    padding: 5px;
+    color: rgb(249 168 0);
+    text-align: center;
+    font-weight: 800;
+    padding-right: 20px;
+    font-size: x-large;
+}
+
+.bottomfooter ul {
+  list-style: none;
+  padding-left: 5px;
+}
+
+.bottomfooter li {
+  display: inline-block;
+  padding: 0px 7px;
+}
